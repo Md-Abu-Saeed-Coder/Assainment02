@@ -329,5 +329,69 @@ nav {
 .extra-left-btn > a > button:hover {
   background: transparent;
   border: 1px var(--second-color) solid;
+}
+/*------------------------------------------------------------------------------------------Nav-Banner, Change Your Habits ,Run an Extra ( Responsive )-----------------------------------------------*/
 
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 344px) and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+  .menu-wraper {
+    align-items: start;
+  }
+
+  .header-menu-wraper,
+  .nav-menu > ul,
+  .habit-menu-wraper,
+  .run-an-extra-menu-wraper {
+    flex-direction: column;
+  }
+  .nav-card-one {
+    left: 2%;
+  }
+  .nav-card-two {
+    right: 3%;
+    top: 27%;
+  }
+  .header-right-site,
+  .extra-left,
+  .extra-left-h4,
+  .extra-left-p,
+  .extra-right {
+    width: 100%;
+  }
+  .header-right-h1 {
+    font-size: 40px;
+  }
+  .header-right-p {
+    font-size: 14px;
+  }
+  element.style {
+    font-size: 77px;
+  }
+  .btn1 > a > button {
+    padding: 4% 5%;
+    font-size: 15px;
+  }
+  .change-habit-p {
+    padding: 0px 25px 0 25px;
+  }
+  .habit-menu-img-one {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .extra-left-h4 {
+    font-size: 34px;
+    margin-top: 31px;
+  }
+  .extra-left {
+    padding-left: 21px;
+  }
+  .extra-left-btn > a >button {
+    padding: 6% 36%;
+  }
 }
