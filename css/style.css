@@ -330,6 +330,206 @@ nav {
   background: transparent;
   border: 1px var(--second-color) solid;
 }
+
+/*---------------------------------------------------------------------------------Trainings and Exercises------------------------------------------------------------------------------------------- */
+#trainings-exercises {
+  margin-top: 6rem;
+}
+.trainings-exercises-h5 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+}
+.trainings-exercises-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  margin-top: 1rem;
+}
+.trainings-exercises-picther {
+  margin-top: 3rem;
+}
+.trainings-exercises-picther img {
+  width: 100%;
+  height: 100%;
+}
+/*--------------------------------------trainings-row-one ------------------------------*/
+.trainings-row-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/*-----------------------------------card-one-picture-1--------------------------- -- */
+.exercises-1-picther-card {
+  position: relative;
+}
+.exercise1-overlay {
+  background: linear-gradient(
+    0deg,
+    rgba(6, 255, 210, 0.5) 0%,
+    rgba(6, 255, 210, 0.5) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one-picther1-card-p {
+  color: #000;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+/*-------------------------------------card-one-picture-2 ----------------------------- */
+.exercises-2-picther-card {
+  position: relative;
+}
+.exercise2 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.3) 0%,
+    rgba(255, 0, 0, 0.3) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one-picther2-card-p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+/*---------------------------------------card-one-picture-3------------------------ -- */
+.exercises-3-picther-card {
+  position: relative;
+}
+.exercise3 {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one-picther3-card-p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  bottom: 28px;
+  left: 20px;
+}
+/* ---------------------------------------------trainings-row-TWO 02 ------------------------ */
+.trainings-row-tow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* ---row-tow-01---- */
+.row-tow-01 {
+  position: relative;
+}
+.exercise4 {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one-picther4-card-p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  right: 9px;
+}
+/* ---row-tow-02---- */
+.row-tow-02 {
+  position: relative;
+}
+.exercise5 {
+  background: linear-gradient(
+    0deg,
+    rgba(66, 255, 0, 0.3) 0%,
+    rgba(66, 255, 0, 0.3) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one-picther5-card-p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+/* ---row-tow-03---- */
+.row-tow-03 {
+  position: relative;
+}
+.exercise6 {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 71, 255, 0.3) 0%,
+    rgba(0, 71, 255, 0.3) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one-picther6-card-p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
 /*------------------------------------------------------------------------------------------Nav-Banner, Change Your Habits ,Run an Extra ( Responsive )-----------------------------------------------*/
 
 .hide {
@@ -391,7 +591,20 @@ nav {
   .extra-left {
     padding-left: 21px;
   }
-  .extra-left-btn > a >button {
+  .extra-left-btn > a > button {
     padding: 6% 36%;
   }
+  /* ------------------------------Trainings and Exercises ( Responsive ) ------------------*/
+  .row-tow-03,
+  .exercises-3-picther-card {
+    display: none;
+  }
+  .trainings-row-one,
+  .trainings-row-tow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+.trainings-exercises-h5 {
+  font-size: 2rem;
+}
 }
