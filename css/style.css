@@ -552,13 +552,12 @@ nav {
 
 #bim-calculator-tow {
   margin-top: 5rem;
-  height: 487px;
   width: 100%;
   background: #222;
 }
-.calculator-tow-left {
-  max-width: 50%;
-}
+/* .calculator-tow-left {
+  width: 50%;
+} */
 .calculator-tow-left-h4 {
   margin-top: 3rem;
   color: #fff;
@@ -587,12 +586,9 @@ nav {
 }
 
 /*--------------------------------------------------------------Calculate your BMI ---------------------------------*/
-/* .calculate-your-bmi {
-  padding-right: 34%;
-} */
 
 .calculator-tow-right {
-  max-width: 50%;
+  width: 50%;
 }
 .calculator-tow-right-p {
   color: rgba(255, 255, 255, 0.5);
@@ -648,6 +644,9 @@ nav {
   grid-template-columns: 1fr;
   padding: 12px 0 0 0;
 }
+.calculate-bmi-btn{
+  margin-bottom: 52px;
+}
 .calculate-bmi-btn > a > button {
   width: 224px;
   padding: 16px 40px;
@@ -659,6 +658,11 @@ nav {
   font-size: 18px;
   font-weight: 600;
   margin-top: 38px;
+  cursor: pointer;
+}
+.calculate-bmi-btn > a > button:hover {
+  background-color: transparent;
+  border: 1px var(--second-color) solid;
 }
 
 /*---------------------------------------------------------------------- Meet-Our-Team ---------------------------*/
@@ -708,6 +712,216 @@ nav {
   gap: 20px;
   margin-top: 20px;
 }
+/* meet-picther-01 */
+.meet-picther-01 {
+  position: relative;
+}
+.meet-picther-01-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 36px;
+  left: 19px;
+}
+.meet-picther-01-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* meet-picther-02 */
+.meet-picther-02 {
+  position: relative;
+}
+.meet-picther-02-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 36px;
+  left: 19px;
+}
+.meet-picther-02-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* meet-picther-03 */
+.meet-picther-03 {
+  position: relative;
+}
+.meet-picther-03-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 36px;
+  left: 19px;
+}
+.meet-picther-03-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* meet-picther-04 */
+.meet-picther-04 {
+  position: relative;
+}
+.meet-picther-04-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 36px;
+  left: 19px;
+}
+.meet-picther-04-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* meet-picther-05 */
+.meet-picther-05 {
+  position: relative;
+}
+.meet-picther-05-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 36px;
+  left: 19px;
+}
+.meet-picther-05-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* meet-picther-06 */
+.meet-picther-06 {
+  position: relative;
+}
+.meet-picther-06-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 36px;
+  left: 19px;
+}
+.meet-picther-06-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* ----------------------------------------------------------footer-part ----------------------*/
+#footer-part {
+  margin-top: 88px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-menu-wraper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+/* .footer-menu-wraper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding-top: 66px;
+} */
+.footer-menu-left {
+  width: 32%;
+}
+.footer-menu-mid {
+  width: 30%;
+}
+.logo-p-content {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+}
+.footer-menu-right-a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+.footer-menu-right-a > a {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.footer-mid-h4,
+.footer-right-h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+.footer-end-menu {
+  margin-top: 70px;
+}
+
+.line {
+  border: solid 1px rgba(255, 255, 255, 0.1);
+}
+.line-text {
+  text-align: center;
+  margin-top: 36px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.3px;
+  padding-bottom: 35px;
+}
+
 /*------------------------------------------------------------------------------------------Nav-Banner, Change Your Habits ,Run an Extra ( Responsive )-----------------------------------------------*/
 
 .hide {
@@ -725,7 +939,9 @@ nav {
   .header-menu-wraper,
   .nav-menu > ul,
   .habit-menu-wraper,
-  .run-an-extra-menu-wraper {
+  .run-an-extra-menu-wraper,
+  .calculator-tow-menu-wraper,
+  .footer-menu-wraper {
     flex-direction: column;
   }
   .nav-card-one {
@@ -739,7 +955,12 @@ nav {
   .extra-left,
   .extra-left-h4,
   .extra-left-p,
-  .extra-right {
+  .extra-right,
+  .calculator-tow-left,
+  .calculator-tow-right,
+  .footer-menu-left,
+  .footer-menu-mid,
+  .footer-menu-right {
     width: 100%;
   }
   .header-right-h1 {
@@ -781,8 +1002,43 @@ nav {
   .trainings-row-tow {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .trainings-exercises-h5 {
     font-size: 2rem;
+  }
+
+  /*-------------- bmi -------------*/
+  #bim-calculator-tow {
+    margin-top: 2rem;
+  }
+  .bmi-calculator-h4 {
+    font-size: 38px;
+  }
+  .input-fild-row1 > input,
+  .input-fild-row2 > input,
+  .bmi-weight-row > p {
+    font-size: 10px;
+    padding: 12px 8px 12px 8px;
+  }
+  /*------------ Meet Our Team ------------*/
+  .meet-our-team-h4 {
+    font-size: 40px;
+  }
+  .meet-our-team-p {
+    padding: 0 20px;
+  }
+  .line-text{
+    font-size: 19px;
+  }
+  .meet-picther-row-one,
+  .meet-picther-row-tow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .meet-picther-06,
+  .meet-picther-03 {
+    display: none;
+  }
+  .footer-menu-mid,
+  .footer-right-h4 {
+    margin-top: 30px;
   }
 }
