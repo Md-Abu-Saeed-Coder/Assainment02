@@ -107,8 +107,6 @@ nav {
 .btn1 > a > button:hover {
   color: var(--second-color);
   background-color: transparent;
-  padding: 16px 40px;
-  border-radius: 42px;
   border: 1px var(--second-color) solid;
 }
 .header-left-site {
