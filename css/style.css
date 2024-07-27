@@ -32,10 +32,23 @@ nav {
   background: linear-gradient(180deg, #333333 0%, rgba(121, 121, 121, 0) 100%);
   padding-top: 50px;
 }
+/* --------------------------------------------- */
+.check-btn {
+  font-size: 38px;
+  color: #ffffff;
+  display: none;
+}
+#check {
+  display: none;
+}
+/* ----------------------------- */
 .menu-wraper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav-menu {
+  padding-left: 714px;
 }
 .nav-menu > ul {
   display: flex;
@@ -53,7 +66,7 @@ nav {
   font-weight: 600;
   line-height: normal;
 }
-.nav-menu > ul > li :hover {
+.nav-menu > ul a:hover {
   background-color: var(--first-color);
   padding: 8px 20px;
   border-radius: 46px;
@@ -532,6 +545,7 @@ nav {
 
 #bmi-calculator {
   margin-top: 5rem;
+  margin-left: 196px;
 }
 .bmi-calculator-h4 {
   color: #fff;
@@ -545,11 +559,12 @@ nav {
   font-size: 14px;
   font-weight: 400;
   margin-top: 14px;
+  width: 56%;
 }
 /*------------------------------------------------------bim-calculator-tow --------------------------------------*/
 
 #bim-calculator-tow {
-  margin-top: 5rem;
+  margin-top: 4rem;
   width: 100%;
   background: #222;
 }
@@ -642,7 +657,7 @@ nav {
   grid-template-columns: 1fr;
   padding: 12px 0 0 0;
 }
-.calculate-bmi-btn{
+.calculate-bmi-btn {
   margin-bottom: 52px;
 }
 .calculate-bmi-btn > a > button {
@@ -933,7 +948,6 @@ nav {
   .menu-wraper {
     align-items: start;
   }
-
   .header-menu-wraper,
   .nav-menu > ul,
   .habit-menu-wraper,
@@ -958,7 +972,8 @@ nav {
   .calculator-tow-right,
   .footer-menu-left,
   .footer-menu-mid,
-  .footer-menu-right {
+  .footer-menu-right,
+  .bmi-calculator-p {
     width: 100%;
   }
   .header-right-h1 {
@@ -987,6 +1002,9 @@ nav {
   }
   .extra-left {
     padding-left: 21px;
+  }
+  .change-habit-h3{
+    font-size: 31px;
   }
   .extra-left-btn > a > button {
     padding: 6% 36%;
@@ -1017,6 +1035,9 @@ nav {
     font-size: 10px;
     padding: 12px 8px 12px 8px;
   }
+  #bmi-calculator{
+    margin-left: 0;
+  }
   /*------------ Meet Our Team ------------*/
   .meet-our-team-h4 {
     font-size: 40px;
@@ -1024,7 +1045,7 @@ nav {
   .meet-our-team-p {
     padding: 0 20px;
   }
-  .line-text{
+  .line-text {
     font-size: 19px;
   }
   .meet-picther-row-one,
@@ -1038,5 +1059,15 @@ nav {
   .footer-menu-mid,
   .footer-right-h4 {
     margin-top: 30px;
+  }
+  .nav-menu {
+    display: none;
+    padding: 0;
+  }
+  .check-btn {
+    display: block;
+  }
+  .check-btn:hover > .nav-menu {
+    display: block;
   }
 }
